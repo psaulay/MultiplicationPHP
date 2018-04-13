@@ -1,0 +1,43 @@
+.input-fiels > label{
+position: relative;
+display: flex;
+}
+.container{
+    margin-top: 100px;
+}
+#cols6{
+    border: 3px solid black;    
+}
+span{
+    margin-left: 5px;
+}
+
+.tables {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tables > div {
+    width: 33.33%;
+    text-align: center
+}
+.container{
+    background-color: white;
+}
+html{
+    background-image:url(background.png)
+;}
+div{
+    border-radius: 15px;
+}
+nav{
+    background-color: #1E4C30;
+}
+.btn{
+    background-color: #1E4C30;
+}
+select{
+    background-color: beige;
+}
